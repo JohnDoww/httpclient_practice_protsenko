@@ -1,0 +1,35 @@
+
+String inputJson = "{\n" +
+"  \"id\": 2333,\n" +
+"  \"category\": {\n" +
+"  \"name\": \"string\",\n" +
+"}"+
+"  \"name\": \"tricki-nicki\",\n" +
+"  \"photoUrls\": [\n" +
+"  \"string\"\n" +
+"]"+
+"  \"tags\": [\n" +
+" {  \"id\": 0 , \n" +,
+" {  \"name\": \" string \" \n" +
+"  }],\n" +,
+" {  \"status\": \"available\" \n" +
+"}";
+
+//{
+//  "id": 2333,
+//  "category": {
+//    "id": 0,
+//    "name": "string"
+//  },
+//  "name": "doggie",
+//  "photoUrls": [
+//    "string"
+//  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}
