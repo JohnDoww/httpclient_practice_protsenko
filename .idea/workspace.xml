@@ -57,7 +57,7 @@
       <recent name="C:\Users\Andrew\IdeaProjects\selenide" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetTest.updatePet">
+  <component name="RunManager" selected="JUnit.PetTest">
     <configuration name="PetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide" />
       <option name="PACKAGE_NAME" value="" />
@@ -141,9 +141,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PetTest.updatePet" />
         <item itemvalue="JUnit.PetTest" />
         <item itemvalue="JUnit.PetTest.createPet" />
+        <item itemvalue="JUnit.PetTest.updatePet" />
         <item itemvalue="JUnit.PetTest.checkInventar" />
         <item itemvalue="JUnit.PetTest.findCreatedPet" />
       </list>
@@ -170,5 +170,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PetTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PetTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
