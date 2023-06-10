@@ -18,10 +18,11 @@ public class PetMethods extends Exception {
 
     Links links = new Links();
     HttpResponse response;
+    File file;
 
 
     public HttpResponse createPet() throws IOException {
-        File file = new File("src/main/java/utils/petInfo.json");
+        file = new File("src/main/java/utils/petInfo.json");
         FileEntity fileEntity = new FileEntity(file, ContentType.create("application/json", "UTF-8"));
 
         HttpPost createPetRequest = new HttpPost(links.GET_CREATE_PET());
@@ -32,18 +33,19 @@ public class PetMethods extends Exception {
     }
 
     public HttpResponse updatePet() throws IOException {
-        File file = new File("src/main/java/utils/updatepet.json");
+        file = new File("src/main/java/utils/updatepet.json");
         FileEntity fileEntity = new FileEntity(file, ContentType.create("application/json", "UTF-8"));
 
         HttpPost createPetRequest = new HttpPost(links.GET_CREATE_PET());
         createPetRequest.setEntity(fileEntity);
         response = HttpClientBuilder.create().build().execute(createPetRequest);
         String responseBody = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
-        if (responseBody.contains("chicki")){
+        if (responseBody.contains("chicki")) {
             return response;
-        } else { String s = null;
+        } else {
+            String s = null;
             String error = s.toString();
-            }
+        }
         return response;
     }
 

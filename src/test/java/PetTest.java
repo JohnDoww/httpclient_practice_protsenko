@@ -2,8 +2,10 @@ import org.apache.http.HttpResponse;
 import org.apache.http.util.EntityUtils;
 import org.junit.jupiter.api.*;
 import utils.PetMethods;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -19,7 +21,7 @@ public class PetTest {
     public void createPet() throws IOException {
         response = petMethods.createPet();
         String responseBody = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
-        petId=responseBody.substring(6, 9);
+        petId = responseBody.substring(6, 9);
         assertEquals(SC_OK, response.getStatusLine().getStatusCode());
     }
 
