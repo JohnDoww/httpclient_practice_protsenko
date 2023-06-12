@@ -18,7 +18,6 @@ public class Pet {
 
     private String status;
 
-    // Constructors
     public Pet() {
     }
 
@@ -32,7 +31,6 @@ public class Pet {
         this.status = status;
     }
 
-    // Getters and Setters
     public int getId() {
         return id;
     }
@@ -94,17 +92,12 @@ public class Pet {
         this.status = status;
     }
 
-    // Inner classes
-
-
     public static class Category {
         private int id;
         private String name;
-        // Constructors
 
         public Category() {
         }
-
 
         public Category(int id, String name) {
             this.id = id;
@@ -131,12 +124,10 @@ public class Pet {
         }
     }
 
-
     public static class Tag {
         private int id;
         private String name;
 
-        // Constructors
         public Tag() {
         }
 
@@ -145,7 +136,6 @@ public class Pet {
             this.name = name;
         }
 
-        // Getters and Setters
 
         public int getId() {
             return id;

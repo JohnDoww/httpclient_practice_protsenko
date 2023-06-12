@@ -1,11 +1,9 @@
 import org.apache.http.HttpResponse;
-import org.apache.http.util.EntityUtils;
 import org.junit.jupiter.api.*;
 import utils.Pet;
 import utils.PetMethods;
 
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
 
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -28,7 +26,6 @@ public class PetTest {
     @Order(3)
     public void findCreatedPet() throws IOException {
         response = petMethods.findPet(pet.getId());
-
         assertEquals(SC_OK, response.getStatusLine().getStatusCode());
     }
 
@@ -36,9 +33,6 @@ public class PetTest {
     @Order(3)
     public void updatePet() throws IOException {
         response = petMethods.updatePet();
-//        String responseBody = EntityUtils.toString(response.getEntity(), StandardCharsets.UTF_8);
-//        System.out.println("Response body: " + responseBody);
-
         assertEquals(SC_OK, response.getStatusLine().getStatusCode());
     }
 
@@ -46,7 +40,6 @@ public class PetTest {
     @Order(4)
     public void deleteCreatedPet() throws IOException {
         response = petMethods.deletePet();
-
         assertEquals(SC_OK, response.getStatusLine().getStatusCode());
     }
 
