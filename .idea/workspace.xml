@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="235e9921-b3ae-4b40-8ad3-f4ce6749fce2" name="Changes" comment="" />
+    <list default="true" id="235e9921-b3ae-4b40-8ad3-f4ce6749fce2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PetMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PetMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/petInfo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/updatepet.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,7 +70,6 @@
       <module name="selenide" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PetTest" />
-      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,21 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetTest.findCreatedPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetTest.deleteCreatedPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PetTest" />
-      <option name="METHOD_NAME" value="findCreatedPet" />
+      <option name="METHOD_NAME" value="deleteCreatedPet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetTest.updatePet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetTest.findCreatedPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PetTest" />
-      <option name="METHOD_NAME" value="updatePet" />
+      <option name="METHOD_NAME" value="findCreatedPet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,20 +139,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PetTest" />
       <item itemvalue="JUnit.PetTest.checkInventar" />
-      <item itemvalue="JUnit.PetTest.createPet" />
       <item itemvalue="JUnit.PetTest.findCreatedPet" />
-      <item itemvalue="JUnit.PetTest.updatePet" />
       <item itemvalue="Maven.protsenko_api" />
+      <item itemvalue="JUnit.PetTest.deleteCreatedPet" />
+      <item itemvalue="JUnit.PetTest" />
+      <item itemvalue="JUnit.PetTest.createPet" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PetTest" />
-        <item itemvalue="JUnit.PetTest.createPet" />
-        <item itemvalue="JUnit.PetTest.updatePet" />
-        <item itemvalue="JUnit.PetTest.checkInventar" />
         <item itemvalue="JUnit.PetTest.findCreatedPet" />
+        <item itemvalue="JUnit.PetTest.createPet" />
+        <item itemvalue="JUnit.PetTest.deleteCreatedPet" />
+        <item itemvalue="JUnit.PetTest.checkInventar" />
       </list>
     </recent_temporary>
   </component>
@@ -170,21 +177,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/PetTest.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/PetTest.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
