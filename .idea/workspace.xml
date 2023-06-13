@@ -141,10 +141,10 @@
     <list>
       <item itemvalue="JUnit.PetTest.checkInventar" />
       <item itemvalue="JUnit.PetTest.findCreatedPet" />
-      <item itemvalue="Maven.protsenko_api" />
       <item itemvalue="JUnit.PetTest.deleteCreatedPet" />
       <item itemvalue="JUnit.PetTest" />
       <item itemvalue="JUnit.PetTest.createPet" />
+      <item itemvalue="Maven.protsenko_api" />
     </list>
     <recent_temporary>
       <list>
