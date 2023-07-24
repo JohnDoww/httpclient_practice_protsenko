@@ -65,9 +65,9 @@
       <recent name="C:\Users\Andrew\IdeaProjects\selenide" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PetTest">
-    <configuration name="PetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenide" />
+  <component name="RunManager" selected="JUnit.PetTest (1)">
+    <configuration name="PetTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hellocucumber" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PetTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -75,12 +75,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetTest.checkInventar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenide" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PetTest" />
-      <option name="METHOD_NAME" value="checkInventar" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,20 +138,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PetTest.checkInventar" />
       <item itemvalue="JUnit.PetTest.findCreatedPet" />
       <item itemvalue="JUnit.PetTest.deleteCreatedPet" />
       <item itemvalue="JUnit.PetTest" />
       <item itemvalue="JUnit.PetTest.createPet" />
       <item itemvalue="Maven.protsenko_api" />
+      <item itemvalue="JUnit.PetTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetTest (1)" />
         <item itemvalue="JUnit.PetTest" />
         <item itemvalue="JUnit.PetTest.findCreatedPet" />
         <item itemvalue="JUnit.PetTest.createPet" />
         <item itemvalue="JUnit.PetTest.deleteCreatedPet" />
-        <item itemvalue="JUnit.PetTest.checkInventar" />
       </list>
     </recent_temporary>
   </component>
